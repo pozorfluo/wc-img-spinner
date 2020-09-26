@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="64px"
+  height="64px"
+  version="1.1"
+  alt="spinner"
+  viewBox="0 0 128 128"
+  xml:space="preserve"
+>
+<g>
+  <circle cx="16" cy="64" r="16" fill="#ffd8a6" />
+  <circle transform="rotate(45,64,64)" cx="16" cy="64" r="16" fill="#ffd8a6" />
+  <circle transform="rotate(90,64,64)" cx="16" cy="64" r="16" fill="#ffd8a6" />
+  <circle transform="rotate(135,64,64)" cx="16" cy="64" r="16" fill="#ffd8a6" />
+  <circle transform="rotate(180,64,64)" cx="16" cy="64" r="16" fill="#202629" />
+  <circle transform="rotate(225,64,64)" cx="16" cy="64" r="16" fill="#202629" />
+  <circle transform="rotate(270,64,64)" cx="16" cy="64" r="16" fill="#202629" />
+  <circle transform="rotate(315,64,64)" cx="16" cy="64" r="16" fill="#202629" />
+  <animateTransform
+    attributeName="transform"
+    calcMode="discrete"
+    dur="800ms"
+    repeatCount="indefinite"
+    type="rotate"
+    values="0 64 64;315 64 64;270 64 64;225 64 64;180 64 64;135 64 64;90 64 64;45 64 64"
+  />
+</g>
+</svg>
